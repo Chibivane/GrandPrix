@@ -105,7 +105,7 @@ public class GrandPrix {
             }
             System.out.println("\033[0m¡¡Ha finalizado el Grand Prix!!");
             if (ganador.size()>1){
-                System.out.println("¡¡Ha habido empate!! Los cruzarMeta son:");
+                System.out.println("¡¡Ha habido empate!! Los cruzarMeta son: ");
                 for (Motorista motorista : ganador) {
                     System.out.println("- " + motorista.getNombreMotorista());
                 }
